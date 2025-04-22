@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.dark {
+    background-image: url('https://app.trickle.so/storage/public/images/usr_0f1e1b6eb8000001/f2f5d2f9-7150-4a7d-b760-e577737adef1.png');
+    color: #e5e5e5;
+}
+
+.light {
+    background-image: url('https://app.trickle.so/storage/public/images/usr_0f1e1b6eb8000001/19ae8c51-dd30-4275-a01f-bff0d0b1a879.png');
+    color: #1a1a1a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+}
+
+.search-container {
+    margin: 2rem 0;
+}
+
+/* Input styles */
+.dark input, .dark select {
+    background-color: rgba(45, 45, 45, 0.9);
+    color: #ffffff;
+    border-color: #404040;
+}
+
+.dark input::placeholder {
+    color: #808080;
+}
+
+.dark input:focus, .dark select:focus {
+    border-color: #60a5fa;
+    outline: none;
+}
+
+/* Text colors for different modes */
+.dark .text-gray-600 {
+    color: #d1d5db;
+}
+
+.dark .text-gray-500 {
+    color: #9ca3af;
+}
+
+.dark .hover\:text-gray-800:hover {
+    color: #ffffff;
+}
+
+.dark label {
+    color: #e5e5e5;
+}
+
+/* Alert and notification colors */
+.dark .bg-blue-100 {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+}
+
+.dark .bg-red-100 {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+}
+
+/* Settings modal backdrop */
+.dark .settings-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* DateTime styles */
+.datetime-display {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.date-text {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.time-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+}

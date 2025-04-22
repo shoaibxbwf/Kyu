@@ -1,0 +1,94 @@
+.weather-card {
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.dark .weather-card {
+    background-color: rgba(45, 45, 45, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.light .weather-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hourly-forecast {
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.forecast-item {
+    min-width: 100px;
+    text-align: center;
+}
+
+.daily-forecast-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+    scrollbar-width: thin;
+}
+
+.daily-forecast-item {
+    min-width: 150px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark .daily-forecast-item {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Additional contrast improvements */
+.dark .text-sm {
+    color: #d1d5db;
+}
+
+.dark .font-bold {
+    color: #ffffff;
+}
+
+.dark .text-xl {
+    color: #ffffff;
+}
+
+.dark .text-2xl {
+    color: #ffffff;
+}
+
+.dark .text-4xl {
+    color: #ffffff;
+}
+
+/* Scrollbar styling for dark mode */
+.dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: rgba(45, 45, 45, 0.8);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+}
+
+@media (max-width: 640px) {
+    .weather-card {
+        padding: 1rem;
+    }
+}
