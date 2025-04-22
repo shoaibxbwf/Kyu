@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkyPerk - A beautiful weather app that provides accurate weather forecasts">
+    <meta name="keywords" content="weather, forecast, temperature, humidity, weather app, skyperk">
+    
+    <meta property="og:title" content="SkyPerk Weather App">
+    <meta property="og:description" content="Get accurate weather forecasts with SkyPerk">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="SkyPerk Weather App">
+    <meta name="twitter:description" content="Get accurate weather forecasts with SkyPerk">
+    
+    <title>SkyPerk Weather App</title>
+    
+    <!-- Use HTTPS for all external resources -->
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    
+    <!-- Use relative paths for local resources -->
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/weather-cards.css" rel="stylesheet">
+    <link href="./styles/settings.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Use relative paths for local scripts -->
+    <script type="text/babel" src="./utils/translations.js"></script>
+    <script type="text/babel" src="./utils/weatherApi.js"></script>
+    <script type="text/babel" src="./utils/dateUtils.js"></script>
+    <script type="text/babel" src="./components/AppBar.js"></script>
+    <script type="text/babel" src="./components/SearchSection.js"></script>
+    <script type="text/babel" src="./components/WeatherOverview.js"></script>
+    <script type="text/babel" src="./components/HourlyForecast.js"></script>
+    <script type="text/babel" src="./components/DailyForecast.js"></script>
+    <script type="text/babel" src="./components/Settings.js"></script>
+    <script type="text/babel" src="./app.js"></script>
+</body>
+</html>
