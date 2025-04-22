@@ -1,64 +1,100 @@
-# SkyPerk Weather App
+# 🌤️ Skyperk – Your Personal Weather Companion
 
-A beautiful weather application built with React that provides accurate weather forecasts.
+**Skyperk** is a beautifully crafted, multilingual weather app that delivers accurate, real-time weather updates for any city around the globe. With a modern UI, battery-saving mode, and support for multiple languages, Skyperk is designed to offer an elegant and personalized experience – anytime, anywhere.
 
-## Features
+---
 
-- Real-time weather data
-- Hourly and daily forecasts
-- Multiple language support
-- Dark/Light mode
-- Temperature unit conversion
-- Battery saving mode
-- Responsive design
+## ✨ Features
 
-## Deployment Instructions
+- 🌍 **Global City Weather Search**
+- 🕒 **Live Weather Data** (Temperature, Humidity, Wind, Clouds)
+- 🗺️ **Displays Country Name with National Flag**
+- 🌡️ **5-Day Forecast** with scrollable horizontal layout
+- 🌗 **Dark & Light Themes** with auto-save via `localStorage`
+- 💾 **Set a Default Location** for quick access to your favorite city
+- 🔋 **Battery Saving Mode** for efficient performance
+- 🌐 **Multilingual Support** – Available in **English**, **Hindi**, and **Urdu**
+- ⌨️ **Search via Enter Key or Button**
+- 📱 **Fully Responsive** – Seamless across all devices
+- ⚡ **Smooth Error Handling & Fast Load Times**
 
-1. Fork this repository
-2. Go to repository Settings
-3. Navigate to Pages section
-4. Under "Source", select "Deploy from a branch"
-5. Select "main" branch and "/ (root)" folder
-6. Click Save
-7. Wait a few minutes for the deployment to complete
-8. Your site will be available at `https://[your-username].github.io/[repo-name]/`
+---
 
-## Local Development
+## 🖼️ Preview
 
-1. Clone the repository
-2. Open index.html in your browser
-3. No build process required!
+![Skyperk Preview](assets/preview.png)  
+*A sleek, responsive UI with real-time weather info tailored for you!*
 
-## File Structure
+---
 
+## 🚀 Live Demo
 
-/
-├── index.html          # Main entry point
-├── .nojekyll          # Prevents GitHub Pages from ignoring underscore files
-├── styles/            # CSS files
-│   ├── main.css
-│   ├── weather-cards.css
-│   └── settings.css
-├── utils/             # Utility functions
-│   ├── translations.js
-│   ├── weatherApi.js
-│   └── dateUtils.js
-└── components/        # React components
-    ├── AppBar.js
-    ├── SearchSection.js
-    ├── WeatherOverview.js
-    ├── HourlyForecast.js
-    ├── DailyForecast.js
-    └── Settings.js
+🔗 [Try Skyperk Now](https://shoaibxbwf.github.io/WeatherApp/)
 
+---
 
-## Technologies Used
+## 📲 Download for Android
 
-- React 18
-- TailwindCSS
-- OpenWeather API
-- Font Awesome Icons
+🔗 [Download Android Version](https://shoaibxbwf.github.io/DownloadPage/)
 
-## Note
+---
 
-Make sure to keep all file paths relative to the root directory when deploying to GitHub Pages.
+## 📦 Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **OpenWeatherMap API**
+- **FlagsAPI** for country flag display
+
+---
+
+## 🔐 API Setup
+
+Skyperk uses the **OpenWeatherMap API** for fetching accurate weather data.  
+To use your own API key:
+
+1. Sign up at [openweathermap.org/api](https://openweathermap.org/api)
+2. Replace the API key placeholder in your `script.js`
+
+---
+
+## 🧠 Smart Features
+
+- 🕹 **Theme Toggle:** Light 🌞 / Dark 🌙 mode saved in localStorage  
+- 📍 **Default Location:** Set once, check it anytime  
+- 🔋 **Battery Saver Mode:** Less animation, optimized fetch  
+- 🌐 **Language Selection:** UI adapts to your preferred language
+
+---
+
+## 📸 Screenshots
+
+| 💻 Desktop View | 📱 Mobile View |
+|----------------|----------------|
+| ![desktop](assets/desktop.png) | ![mobile](assets/mobile.png) |
+
+---
+
+## 🚧 Planned Enhancements
+
+- 🌦️ **Animated Backgrounds** based on live weather
+- 📍 **Auto-detect Location** via Geolocation API
+- 🧩 **PWA Support** for installable experience
+- 🗣️ **Voice Search Integration**
+
+---
+
+## 👨‍💻 Developed By
+
+**Mohammad Amir Shoaib**  
+💻 BCA Student | Front-End Web Developer  
+📧 astechnical112@gmail.com  
+🌐 [GitHub: @shoaibxbwf](https://github.com/shoaibxbwf)
+
+---
+
+## ⭐ Support & Feedback
+
+If you enjoy using Skyperk, please give it a ⭐ on [GitHub](https://github.com/shoaibxbwf/WeatherApp) and share it with your friends!  
+Have ideas or suggestions? I'd love to hear from you.
