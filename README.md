@@ -1,4 +1,4 @@
-# 🌤️ Skyperk – Your Personal Weather Companion
+# 🌤️ Skyperk – Your Personal Weather App
 
 **Skyperk** is a beautifully crafted, multilingual weather app that delivers accurate, real-time weather updates for any city around the globe. With a modern UI, battery-saving mode, and support for multiple languages, Skyperk is designed to offer an elegant and personalized experience – anytime, anywhere.
 
